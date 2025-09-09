@@ -4,7 +4,7 @@ datasources:
   - name: OCS Inventory DB
     type: mysql
     url: ocsinventory-db:3306
-    user: ocs
+    user: ocsuser
     database: ocsweb
     secureJsonData:
-      password: ocs
+      password: ocspass

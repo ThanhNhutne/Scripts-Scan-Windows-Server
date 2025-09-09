@@ -1,0 +1,17 @@
+apiVersion: 1
+
+contactPoints:
+  - orgId: 1
+    name: telegram
+    receivers:
+      - uid: telegram-receiver
+        type: telegram
+        settings:
+          bottoken: "8414605110:AAGttKFDDt7VUFJRWmY-UvnZM4i2aRZjvrw"
+          chatid: "-1002853211744"
+          messageThreadId: "6"
+
+policies:
+  - orgId: 1
+    receiver: telegram
+    group_by: ['...']
